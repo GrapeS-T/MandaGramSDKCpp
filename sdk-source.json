@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "language": "cpp",
+  "engine": {
+    "repository": "https://github.com/GrapeS-T/MandaGram",
+    "commit": "259fc5a38b64a12c85121838278f78ee72541dfb"
+  },
+  "target": {
+    "architectures": [
+      "x86_64"
+    ],
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "pluginApiSlots": 53,
+    "versionNegotiation": false,
+    "deinitOrUnregister": false
+  },
+  "hashPolicy": "SHA256 of UTF-8 source bytes with CRLF normalized to LF; header hashes equal the committed engine blobs. ZIP entries use the same LF bytes.",
+  "headers": [
+    {
+      "file": "mandagram_plugin.h",
+      "enginePath": "src/native/include/mandagram_plugin.h",
+      "sha256": "3046fa914fa2766d412c41ce63cbaf63f23ca7bcd6c00aa2b59ca3b3d5176d0e"
+    },
+    {
+      "file": "mandagram_plugin.hpp",
+      "enginePath": "src/native/include/mandagram_plugin.hpp",
+      "sha256": "70e2c166664d87fb0c0dedb42bbe21e53f936186b07d130434fe2ee412ed1ea4"
+    }
+  ],
+  "origin": {
+    "repository": "https://github.com/GrapeS-T/MandaGramLanding",
+    "checkoutHead": "1069e310320e3c54161e7fceda85ff35cb293a8b",
+    "note": "Extracted from local working-tree SDK sources; Rust/D bindings separated from example exports; C example adapted from C++."
+  },
+  "evidence": {
+    "sourceMatched": "Canonical headers verified against pinned engine git blobs; not a certification of any distributed client.",
+    "runtime": "Not loaded in MandaGram; no client data used."
+  }
+}
