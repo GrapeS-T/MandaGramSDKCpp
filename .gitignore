@@ -1,0 +1,15 @@
+/build/
+/target/
+/.zig-cache/
+/zig-out/
+/.dub/
+*.obj
+*.o
+*.dll
+*.so
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.exe
+/data/
